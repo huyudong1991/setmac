@@ -44,7 +44,7 @@ echo -e "\033[43;34mnewip：$ipnew\033[0m"
 echo 'Update ip data'
 
 
-curl --connect-timeout 10 -s "https://doubledou.me/hkt?ip=$ipnew&cishu=$i"
+#curl --connect-timeout 10 -s "https://your domin name/hkt?ip=$ipnew&cishu=$i" #用于接受新ip信息
 sleep 2
 
 
